@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+
+}
+
+.top-container{
+    background-image: url(https://cdn.exputer.com/wp-content/uploads/2022/09/FIFA-23-Loading-Screen.jpg.webp);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text{
+    margin: 50px 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    display: inline-flex;
+    position: fixed;
+    background-color: rgb(42, 88, 32);
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+    transition: background-color 0.5s;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+}
+
+.navbar ul li a:hover{
+    color: brown;
+}
+
+.navbar .active{
+    background-color: black;
+}
+.navbar .active ul li a{
+    background-color: whitesmoke;
+}
